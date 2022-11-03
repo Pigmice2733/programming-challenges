@@ -1,0 +1,18 @@
+CREATE A FUNCTIONING DRIVETRAIN
+
+Requirements (basic)
+- 4 CANSparkMax motors, 2 drive motors and 2 followers (hint: look at bunnybot-2022 Drivetrain)
+- ArcadeDrive function
+- TankDrive function
+- Controller defined to drive
+- Create an instance of DriveTrain in RobotContainer
+
+
+Requirements(medium)
+- Create commands for ArcadeDrive and TankDrive (hint: look at bunnybot-2022 commands)
+- Define controller in RobotContainer
+- SetDefualtCommand of DriveTrain in RobotContainer
+
+Requirements(advanced)
+- Slow mode when a button is held down
+- Command to drive for a set amount of time

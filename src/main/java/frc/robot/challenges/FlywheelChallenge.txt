@@ -1,0 +1,15 @@
+CREATE A SHOOTER FLYWHEEL
+
+Requirements(basic)
+- TalonSRX motor
+- SetSpeed function that used percentOutput
+- Controller with button to toggle on/off
+
+Requirements(medium)
+- 3 preset speeds the flywheel can spin 
+- A way to toggle between the speeds using controller
+- A way to reverse the direction using controller (hint: negative output to the motor)
+
+Requirements(advanced)
+- Track the number of rotations the motor has using RelativeEncoder class
+- PIDCommand to spin it a set number of rotations (hint: look at DriveDistance in bunnybot-2022)
